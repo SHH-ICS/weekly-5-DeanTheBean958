@@ -1,6 +1,28 @@
 <!DOCTYPE HTML>
   <head>
-    <title></title>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+                mdl-layout--fixed-tabs">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+    <title>
+        <span class="mdl-layout-title">Cool Sigma calautor</span>
+        </div>
+    </title>
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+          <a href="#fixed-calaulor" class="mdl-layout__tab is-active">Tab 1</a>
+        </header>
+          <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Cool Sigma calautor</span>
+          </div>
+          <main class="mdl-layout__content">
+            <section class="mdl-layout__tab-panel is-active" id="fixed-calaulor">
+              <div class="page-content"><form name="myForm" action="handler.php" method="POST">
+                <h4>Please put your number amount here:</h4> <input type="number" name="YourNumber"><br>
+                <h4> </h4>
+                <input type="submit">
+              </form>
+</div>
+            </section>
 
     <!-- MDL Inclusions -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -9,14 +31,6 @@
 
   </head>
 
-  <body>
-  
-      
-      <form name="myForm" action="handler.php" method="POST">
-        <h4>Please put your number amount here:</h4> <input type="number" name="YourNumber"><br>
-        <h4> </h4>
-        <input type="submit">
-      </form>
 
 
   </body>
